@@ -1,0 +1,30 @@
+h1 {
+    text-align: center;
+    font-size: 70px;
+}
+
+div {
+    padding: 30px;
+    text-align: center;
+}
+
+#userInfo {
+    text-align: right;
+    font-size: 16px;
+}
+
+.signIn {
+    padding-top: 200px;
+}
+
+button {
+    background-color: white;
+}
+
+a #login.button {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}

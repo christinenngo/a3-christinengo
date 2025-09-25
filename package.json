@@ -1,0 +1,22 @@
+{
+  "name": "",
+  "version": "",
+  "description": "",
+  "author": "",
+  "scripts": {
+    "start": "node server.improved.js"
+  },
+  "dependencies": {
+    "connect-ensure-login": "^0.1.1",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "express-session": "^1.18.2",
+    "mime": "^2.6.0",
+    "mongodb": "^6.19.0",
+    "passport": "^0.7.0",
+    "passport-github": "^1.1.0"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}

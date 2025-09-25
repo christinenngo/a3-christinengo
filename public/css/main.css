@@ -1,0 +1,57 @@
+body, html {
+    padding-left: 50px;
+    margin: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-areas: "header header" "form content" "footer footer";
+    grid-template-columns: 1fr 3fr;
+}
+
+.container div.header {
+    grid-area: header;
+    display: inline;
+    padding-bottom: 14px;
+}
+
+.container div.form {
+    grid-area: form;
+    padding-right: 80px;
+}
+
+.container div.content {
+    grid-area: content;
+}
+
+.container div.footer {
+    grid-area: footer;
+    text-align: right;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    display: inline;
+}
+
+#genre {
+    padding-top: 0;
+    padding-bottom: 10px;
+}
+
+#userInfo {
+    text-align: right;
+    padding: 10px;
+}
+
+th, td {
+    padding: 10px 30px;
+}
+
+.aligned {
+    text-align: center;
+}
